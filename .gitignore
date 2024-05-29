@@ -24,3 +24,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# .vscodeディレクトリを除外
+.vscode/
+
+# 生成されたファイルを除外
+LibTarget.mk
+Make.defs
+Makefile
