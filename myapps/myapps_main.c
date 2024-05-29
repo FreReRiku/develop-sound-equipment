@@ -3,5 +3,6 @@
 
 int main(int argc, char *argv[])
 {
+  printf("Hello Spresense!!!\n");
   return 0;
 }
