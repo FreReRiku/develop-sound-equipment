@@ -28,7 +28,15 @@ Temporary Items
 # .vscodeディレクトリを除外
 .vscode/
 
-# 生成されたファイルを除外
+# 生成されたファイルを除外し、ソースコードのみを追跡対象にする
+.built
+.depend
+sdk.config
 LibTarget.mk
 Make.defs
 Makefile
+out/
+myapps/
+!myapps/*.c
+
+
